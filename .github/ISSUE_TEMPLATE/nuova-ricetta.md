@@ -1,6 +1,9 @@
 ---
-nome: New Recepy
-about: Template for a new project idea. Remove comments before posting.
+name: Nuova Ricetta
+about: Prtoponi una nuova ricetta
+title: "[Ricetta]"
+labels: ''
+assignees: ''
 
 ---
 
