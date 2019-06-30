@@ -1,5 +1,5 @@
 ---
-nome: New Idea
+nome: New Recepy
 about: Template for a new project idea. Remove comments before posting.
 
 ---
