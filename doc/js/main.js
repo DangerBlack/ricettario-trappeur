@@ -5,7 +5,7 @@
 // Also, we need to specify what page we need so we can paginate on the frontend as well.
 var perPage = 20
 var page = window.location.href.match(/page=(\d+)/) ? window.location.href.match(/page=(\d+)/)[1] : 1
-var URL = "https://api.github.com/ricettario-trappeur/ricettario-trappeur/issues?per_page="+perPage+"&page="+page;
+var URL = "https://api.github.com/repos/DangerBlack/ricettario-trappeur/issues?per_page="+perPage+"&page="+page;
 
 
 function display_issues () {
