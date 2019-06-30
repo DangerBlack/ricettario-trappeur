@@ -14,11 +14,11 @@ function display_issues () {
     success: function (data, status, xhr) {
       // the total number of pages we have in the pagination is gotten from the response header (Link)
       // However, to extract it, this is the simplest hack I could come up with.
-      var str = xhr.getResponseHeader('Link')
+      //var str = xhr.getResponseHeader('Link')
 
       // if we can't find rel=last, then this is the last page
-      pages = str.indexOf('rel="last"') > 0 ? parseInt(str[str.indexOf('rel="last"') - 4]) : page
-
+      pages = 0; //str.indexOf('rel="last"') > 0 ? parseInt(str[str.indexOf('rel="last"') - 4]) : page
+      console.log(data);
       show_issues_in_dom(data, pages);
       $('.progress').slideUp();
     }
